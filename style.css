@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,500;0,6..12,700;1,6..12,300;1,6..12,1000&family=Oswald:wght@200;300;400;500;600;700&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Kalnia:wght@600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,500;0,6..12,700;1,6..12,300;1,6..12,1000&family=Sevillana&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+  background: url(./img/background.jpg);
+  background-size: 50%;
+}
+  
+
+.container{
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  background-color: rgb(0, 83, 14);
+}
+
+/*Logo*/
+.logo{
+  width: 80px;
+  height: 80px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  background: url(./img/logo.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+/*End of Logo*/
+
+
+
+
+
+/*Navbar*/
+.navbar{
+  display: flex;
+  margin-left: 65rem;
+  align-items: center;
+  gap: 5rem;
+  font-family: "Rubik Doodle Shadow", sans-serif;
+}
+
+.navbar a{
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: antiquewhite;
+}
+/*End of Navbar*/
+
+
+
+
+/*Green Section*/
+.green{
+  width: 100%;
+  height: 400px;
+  background: url(./img/green.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.green h1{
+  font-size: 6rem;
+  color: antiquewhite;
+  font-family: "Rubik Doodle Shadow", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-top: 8rem;
+}
+/*End of Green Section*/
+
+
+
+
+
+/*Animals Section*/
+.animals-section{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  position: absolute;
+}
+  
+.animals-section h1{
+  font-size: 4rem;
+  color: black;
+}
+
+.animals-section img{
+  width: 500px;
+  height: 500px;
+} 
+
+#animals-text{
+  margin-top: 30rem;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Sevillana", sans-serif;
+  font-weight: 800;
+}
+/*End of Animals Section*/
+
+
+
+
+
+/*Trees Section*/
+.trees-section{
+  margin-top: rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3em;
+}
+
+.trees-section img{
+  width: 500px;
+  height: 500px; 
+} 
+
+#tree-text{
+  margin-top: 80rem;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Sevillana", sans-serif;
+  font-weight: 800;
+}
+/*End of Trees Section*/
+
+
+
+
+/*Snow Section*/
+.snow-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3em;
+}
+
+.snow-section img{
+  margin-top: 2rem;
+  width: 400px;
+  height: 400px;
+} 
+
+#snow-text{
+  margin-top: 15rem;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Sevillana", sans-serif;
+  font-weight: 800;
+}
+/*End of Snow Section*/
+
+
+
+
+/*Box*/
+.box{
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(0, 99, 16);
+  gap: 1.3rem;
+}
+
+input{
+  width: 340px;
+  height: 25px;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.placeholder{
+  font-size: 3rem;
+}
+
+#msg{
+  width: 320px;
+  height: 200px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+button{
+  width: 260px;
+  height: 45px;
+  letter-spacing: 0.3rem;
+  font-size: 18px;
+  color: azure;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(163, 163, 163);
+}
+
+button:hover{
+  background-color: rgb(148, 147, 147);
+}
+/*End of Box*/
+
+
+
+
+
+/*Footer*/
+.footer{
+  margin-top: auto;
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(0, 83, 14);
+}
+
+.footer li{
+  margin-top: 6rem;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-style: italic;
+  font-family: Courier, monospace;
+}
+/*End of Footer Section*/
